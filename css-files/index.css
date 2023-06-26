@@ -1,0 +1,20 @@
+.suisei-potrait {
+    height: 700px;
+}
+
+.main-section {
+    display: flex;
+    flex-direction: row;
+}
+
+.main-suisei-pic {
+    border: 1px solid red;
+}
+
+.suisei-potrait {
+    padding: 10px;
+}
+
+.main-description {
+    border: 1px solid red;
+}
