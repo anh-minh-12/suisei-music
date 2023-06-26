@@ -1,3 +1,8 @@
+.second-body {
+    display: flex;
+    justify-content: center;
+}
+
 .suisei-potrait {
     height: 700px;
 }
@@ -5,10 +10,12 @@
 .main-section {
     display: flex;
     flex-direction: row;
+    font-family: Ysabeau Office, Arial;
 }
 
 .main-suisei-pic {
     border: 1px solid red;
+    margin-right: 270px;
 }
 
 .suisei-potrait {
@@ -17,4 +24,21 @@
 
 .main-description {
     border: 1px solid red;
+    width: 600px;
 }
+
+.main-suisei-name {
+    text-align: center;
+    font-size: 50px;
+    font-weight: 800;
+    margin-bottom: 10px;
+}
+
+.mini-description {
+    text-align: center;
+    font-size: 20px;
+    font-weight: 400;
+    margin-top: 0px;
+    margin-bottom: 50px;
+}
+
