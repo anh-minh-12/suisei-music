@@ -58,23 +58,20 @@
 
 div.main-social-media {
     width: 300px;
-    border: 2px solid rgb(66, 103, 216);
     border-radius: 4px;
-    margin-left: 10px;
-    box-shadow: 5px 5px 10px rgba(66, 103, 216, 0.15);
+    margin-left: 20px;
     transition: width 0.5s; 
     margin-bottom: 15px;
 }
 
 div.main-social-media:hover  {
-    width: 478px;
+    width: 458px;
     cursor: grab;
 }
 
 p.main-social-media {
     font-size: 30px;
     font-weight: 600;
-    color: rgb(47, 0, 236);
     text-decoration: none;
     margin-top: 3px;
     margin-bottom: 3px;
@@ -84,14 +81,32 @@ p.main-social-media {
 a.main-social-media {
     font-size: 30px;
     font-weight: 600;
-    color: rgb(47, 0, 236);
+    color: white;
     text-decoration: none;
     
 }
 
-a:visited .main-social-media {
-    color: rgb(47, 0, 236);
+a:visited .social-media {
+    color: white;
     text-decoration: none;
+}
+
+.main-Youtube {
+    border: 2px solid rgb(274, 1, 1);
+    box-shadow: 5px 5px 10px rgba(274, 1, 1, 0.15);
+    background-color: rgb(274, 1, 1);
+}
+
+.main-Twitter {
+    border: 2px solid rgb(3, 164, 236);
+    box-shadow: 5px 5px 10px rgba(3, 164, 236, 0.15);
+    background-color: rgb(3, 164, 236);
+}
+
+.main-Spotify {
+    border: 2px solid rgb(29, 208, 93);
+    box-shadow: 5px 5px 10px rgba(29, 208, 93, 0.15);
+    background-color: rgb(29, 208, 93);
 }
 
 
