@@ -24,7 +24,7 @@
 
 .main-description {
     border: 1px solid red;
-    width: 600px;
+    width: 498px;
 }
 
 .main-suisei-name {
@@ -32,6 +32,7 @@
     font-size: 50px;
     font-weight: 800;
     margin-bottom: 10px;
+    margin-top: 30px;
 }
 
 .mini-description {
@@ -39,6 +40,59 @@
     font-size: 20px;
     font-weight: 400;
     margin-top: 0px;
-    margin-bottom: 50px;
+    margin-bottom: 0px;
 }
+
+.mini-description-author {
+    text-align: right;
+    font-size: 20px;
+    font-weight: 400;
+    margin-top: 0px;
+    margin-bottom: 50px;
+    padding-right: 50px;
+}
+
+.suisei-gif {
+    margin-bottom: 30px;
+}
+
+div.main-social-media {
+    width: 300px;
+    border: 2px solid rgb(66, 103, 216);
+    border-radius: 4px;
+    margin-left: 10px;
+    box-shadow: 5px 5px 10px rgba(66, 103, 216, 0.15);
+    transition: width 0.5s; 
+    margin-bottom: 15px;
+}
+
+div.main-social-media:hover  {
+    width: 478px;
+    cursor: grab;
+}
+
+p.main-social-media {
+    font-size: 30px;
+    font-weight: 600;
+    color: rgb(47, 0, 236);
+    text-decoration: none;
+    margin-top: 3px;
+    margin-bottom: 3px;
+    margin-left: 10px;
+}
+
+a.main-social-media {
+    font-size: 30px;
+    font-weight: 600;
+    color: rgb(47, 0, 236);
+    text-decoration: none;
+    
+}
+
+a:visited .main-social-media {
+    color: rgb(47, 0, 236);
+    text-decoration: none;
+}
+
+
 
