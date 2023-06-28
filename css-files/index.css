@@ -62,6 +62,8 @@ div.main-social-media {
     margin-left: 20px;
     transition: width 0.5s; 
     margin-bottom: 15px;
+    display: grid;
+    grid-template-columns: 50px 1fr;
 }
 
 div.main-social-media:hover  {
@@ -91,12 +93,16 @@ a:visited .social-media {
     text-decoration: none;
 }
  
-/*hello world*/
 
 .main-Youtube {
     border: 2px solid rgb(274, 1, 1);
     box-shadow: 5px 5px 10px rgba(274, 1, 1, 0.15);
     background-color: rgb(274, 1, 1);
+}
+
+.app-logo {
+    padding: 10px;  
+    height: 30px;
 }
 
 .main-Twitter {
