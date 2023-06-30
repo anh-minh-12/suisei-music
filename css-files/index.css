@@ -6,6 +6,10 @@ p {
     font-family: Ysabeau Office, Arial;
 }
 
+body {
+    padding-bottom: 1000px;
+}
+
 .background-1 {
     left: 0;
     top : 0;
@@ -133,13 +137,13 @@ p.latest-release {
     font-weight: 800;
 }
 
-.album-container {
+div.album-container {
     display: flex;
     flex-direction: row;
     justify-content: center;
 }
 
-.album-contain-container {
+div.album-contain-container {
     width: 900px;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
@@ -168,15 +172,37 @@ img.album-image {
     border-radius: 4px;
 }
 
-.album-infos {
+div.album-infos {
     margin: 0 10px 10px 10px;
 }
 
-.album-info,
-.album-name {
+a.album-cover {
     margin-top: 0;
     margin-bottom: 0;
     color: black;
     font-size: 16px;
+    text-decoration: none;
+}
+
+a.album-cover:hover {
+    text-decoration: none;
+    color: black;
+}
+
+p.album-info,
+p.album-name {
+    margin-top: 0;
+    margin-bottom: 0;
+    color: black;
+    font-size: 16px;
+}
+
+p.album-info {
     font-weight: 400;
 }
+
+p.album-name {
+    font-weight: 600;
+    font-style: italic;
+}
+
