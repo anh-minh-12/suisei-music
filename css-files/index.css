@@ -1,3 +1,7 @@
+:root {
+    --main-color: rgb(196, 156, 109);
+}
+
 p {
     font-family: Ysabeau Office, Arial;
 }
@@ -7,7 +11,7 @@ p {
     top : 0;
     width: 100%;
     position: fixed;
-    opacity: 0;
+    opacity: 1;
     z-index: -10;
 }
 
@@ -15,7 +19,7 @@ p {
     display: flex;
     flex-direction: row;
     justify-content: center;
-    border: 1px solid rgba(255, 0, 0, 1);
+    border: 1px solid rgba(255, 0, 0, 0);
 }
 
 .main-suisei-pic {
@@ -75,16 +79,17 @@ div.main-social-media {
     width: 240px;
     border-radius: 4px;
     margin-left: 16px;
-    transition: width 0.5s; 
+    transition: width 0.5s, background-color 0.5s; 
     margin-bottom: 15px;
     display: grid;
     grid-template-columns: 50px 1fr;
-    background-color: rgb(196, 156, 109);
+    background-color: var(--main-color);
     box-shadow: 5px 5px 10px rgba(196, 156, 109, 0.5);
     border: 2px solid white;
 }
 
 div.main-social-media:hover  {
+    background-color: rgb(255, 196, 134);    
     width: 366px;
     cursor: grab;
 }
@@ -118,11 +123,11 @@ a:visited .social-media {
 
 div.latest-release {
     margin-top: 160px;
-    border: 1px solid red;
+    border: 1px solid rgba(255, 0, 0, 0);
 }
 
 p.latest-release {
-    color: black;
+    color: white;
     text-align: center;
     font-size: 40px;
     font-weight: 800;
@@ -132,18 +137,46 @@ p.latest-release {
     display: flex;
     flex-direction: row;
     justify-content: center;
-    border: 1px solid blue;
 }
 
 .album-contain-container {
-    border: 1px solid green;
     width: 900px;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     column-gap: 20px;
 }
 
-.album-cover {
-    border: 1px solid red;
-    height: 50px;
+div.album-cover {
+    border: 2px solid white;
+    background-color: var(--main-color);
+    border-radius: 4px;
+    box-shadow: 5px 5px 10px rgba(196, 156, 109, 0.5);
+    transition: background-color 0.35s;
+}
+
+div.album-cover:hover {
+    background-color: rgb(255, 196, 134);    
+}
+
+div.album-image {
+    padding: 10px 10px 5px 10px;
+    border-radius: 4px;
+}
+
+img.album-image {
+    width: 100%;
+    border-radius: 4px;
+}
+
+.album-infos {
+    margin: 0 10px 10px 10px;
+}
+
+.album-info,
+.album-name {
+    margin-top: 0;
+    margin-bottom: 0;
+    color: black;
+    font-size: 16px;
+    font-weight: 400;
 }
