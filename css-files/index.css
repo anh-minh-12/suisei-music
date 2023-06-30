@@ -1,5 +1,5 @@
-body {
-    padding-bottom: 1000px;
+p {
+    font-family: Ysabeau Office, Arial;
 }
 
 .background-1 {
@@ -10,13 +10,12 @@ body {
     opacity: 0;
     z-index: -10;
 }
+
 .main-section {
     display: flex;
     flex-direction: row;
     justify-content: center;
-    font-family: Ysabeau Office, Arial;
     border: 1px solid rgba(255, 0, 0, 1);
-    margin-bottom: 200px
 }
 
 .main-suisei-pic {
@@ -117,4 +116,34 @@ a:visited .social-media {
     height: 24px;
 }
 
+div.latest-release {
+    margin-top: 160px;
+    border: 1px solid red;
+}
 
+p.latest-release {
+    color: black;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 800;
+}
+
+.album-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    border: 1px solid blue;
+}
+
+.album-contain-container {
+    border: 1px solid green;
+    width: 900px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    column-gap: 20px;
+}
+
+.album-cover {
+    border: 1px solid red;
+    height: 50px;
+}
