@@ -1,6 +1,6 @@
 :root {
     --main-color: rgb(196, 156, 109);
-    --red-border: rgba(255, 0, 0, 1);
+    --red-border: rgba(255, 0, 0, 0);
 }
 
 p {
@@ -24,7 +24,7 @@ body {
     top : 0;
     width: 100%;
     position: fixed;
-    opacity: 0;
+    opacity: 1;
     z-index: -10;
 }
 
@@ -215,7 +215,24 @@ p.album-name {
     border: 1px solid var(--red-border);
 }
 
-.latest-mv {
-    width: 900px;
+.latest-mv-contain-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
 }
 
+.latest-mv {
+    width: 900px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 20px;
+    row-gap: 20px;
+}
+
+iframe.mv {
+    width: 440px;
+    height: 248px;
+    border: 2px solid white;
+    box-shadow: 5px 5px 10px rgba(196, 156, 109, 0.5);
+    border-radius: 4px;
+}
