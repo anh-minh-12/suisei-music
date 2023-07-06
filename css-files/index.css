@@ -83,6 +83,8 @@ body {
     width: 398px;
     margin-bottom: 12px;
     border-radius: 10px;
+    border: 2px solid white;
+    box-shadow: 5px 5px 10px rgba(196, 156, 109, 0.5);
 }
 
 div.main-social-media {
