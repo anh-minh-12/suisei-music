@@ -238,3 +238,21 @@ iframe.mv {
     box-shadow: 5px 5px 10px rgba(196, 156, 109, 0.5);
     border-radius: 4px;
 }
+
+.latest-tweet {
+    margin-top: 40px;
+    border: 1px solid var(--red-border);
+    padding-bottom: 20px;
+}
+
+.tweet-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.twitter-tweet {
+    border: 2px solid white;
+    box-shadow: 5px 5px 10px rgba(196, 156, 109, 0.5);
+    border-radius: 10px;
+}
