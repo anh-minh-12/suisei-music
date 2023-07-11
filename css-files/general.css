@@ -3,9 +3,10 @@
     --red-border: rgba(255, 0, 0, 0);
 }
 
-p {
+body {
     font-family: Ysabeau Office, Arial;
 }
+
 
 
 .header-font {
@@ -29,3 +30,10 @@ p {
     font-size: 16px;
     font-weight: 400px;
 }
+
+/*
+    border: 2px solid white;
+    background-color: var(--main-color);
+    box-shadow: 5px 5px 10px rgba(196, 156, 109, 0.5);
+
+ */
