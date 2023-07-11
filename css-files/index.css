@@ -1,31 +1,6 @@
-:root {
-    --main-color: rgb(196, 156, 109);
-    --red-border: rgba(255, 0, 0, 0);
-}
-
-p {
-    font-family: Ysabeau Office, Arial;
-}
-
 body {
     padding-bottom: 1000px;
     background-color: black;
-}
-
-.header-font {
-    color: white;
-    font-size: 40px;
-    font-weight: 800;
-    text-align: center;
-}
-
-.background-1 {
-    left: 0;
-    top : 0;
-    width: 100%;
-    position: fixed;
-    opacity: 1;
-    z-index: -10;
 }
 
 .main-section {
