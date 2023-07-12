@@ -108,13 +108,13 @@ a:visited .social-media {
     height: 24px;
 }
 
-div.latest-release {
+div.latest-release-general {
     margin-top: 40px;
     border: 1px solid var(--red-border);
     padding-bottom: 20px;
 }
 
-p.latest-release {
+p.latest-release-general {
     text-align: center;
 }
 
@@ -124,7 +124,7 @@ div.album-container {
     justify-content: center;
 }
 
-div.album-contain-container {
+div.latest-release {
     width: 900px;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
@@ -187,12 +187,12 @@ p.album-name {
     font-style: italic;
 }
 
-.latest-mv-container {
+.latest-mv-general {
     margin-top: 40px;
     border: 1px solid var(--red-border);
 }
 
-.latest-mv-contain-container {
+.latest-mv-container {
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -214,7 +214,7 @@ iframe.mv {
     border-radius: 4px;
 }
 
-.latest-tweet {
+.latest-tweet-general {
     margin-top: 40px;
     border: 1px solid var(--red-border);
     padding-bottom: 20px;
